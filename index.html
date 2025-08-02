@@ -354,4 +354,13 @@
         nextBtn.addEventListener('click', () => {
             if (currentSlide < slides.length - 1) {
                 currentSlide++;
-      
+                showSlide(currentSlide);
+            }
+        });
+
+        // Tampilkan slide pertama saat halaman dimuat
+        showSlide(currentSlide);
+    </script>
+
+</body>
+</html>

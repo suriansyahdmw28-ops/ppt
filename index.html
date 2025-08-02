@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentasi: Dedi Mulyadi & BerAKHLAK</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .slide {
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 2rem;
+            text-align: center;
+        }
+        .slide.active {
+            display: flex;
+        }
+        .slide-content {
+            background-color: white;
+            border-radius: 1.5rem;
+            padding: 3rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            max-width: 90%;
+            width: 100%;
+        }
+        .slide-content h1, .slide-content h2, .slide-content h3 {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen p-4">
+
+    <!-- Kontainer Presentasi -->
+    <div id="presentation-container" class="w-full max-w-4xl">
+        <!-- Slide 1: Halaman Depan -->
+        <div class="slide active" id="slide1">
+            <div class="slide-content">
+                <h1 class="text-4xl font-bold text-blue-800">
+                    Kepemimpinan yang BerAKHLAK: <br> Menghadirkan Dedi Mulyadi dalam Konteks Nilai-Nilai Dasar ASN
+                </h1>
+                <p class="mt-4 text-xl text-gray-600">
+                    Sebuah Analisis Keterkaitan Antara Kiprah Dedi Mulyadi dengan Core Values Aparatur Sipil Negara
+                </p>
+                <div class="mt-8 text-center text-lg text-gray-500">
+                    <p>Nama Anda</p>
+                    <p>Tanggal Presentasi</p>
+                </div>
+                <img src="https://placehold.co/600x400/9ca3af/ffffff?text=Dedi+Mulyadi" alt="Dedi Mulyadi" class="mt-8 rounded-xl shadow-lg mx-auto max-h-80 object-cover">
+            </div>
+        </div>
+
+        <!-- Slide 2: Pendahuluan -->
+        <div class="slide" id="slide2">
+            <div class="slide-content">
+                <h2 class="text-3xl font-semibold text-blue-800">Pendahuluan</h2>
+                <ul class="list-disc list-inside mt-6 space-y-4 text-left text-lg text-gray-700">
+                    <li>**Mengenal Dedi Mulyadi:** Mantan Bupati Purwakarta dan tokoh publik yang dikenal dengan gaya kepemimpinan unik dan dekat dengan rakyat.</li>
+                    <li>**Mengenal BerAKHLAK:** Nilai dasar (core values) Aparatur Sipil Negara (ASN) yang diluncurkan Presiden Jokowi.
+                        <ul class="list-disc list-inside ml-8 mt-2 space-y-1">
+                            <li>**Ber**orientasi Pelayanan</li>
+                            <li>**A**kuntabel</li>
+                            <li>**K**ompeten</li>
+                            <li>**H**armonis</li>
+                            <li>**L**oyal</li>
+                            <li>**A**daptif</li>
+                            <li>**K**olaboratif</li>
+                        </ul>
+                    </li>
+                    <li>**Tujuan Presentasi:** Mengaitkan aksi nyata Dedi Mulyadi dengan setiap poin nilai BerAKHLAK sebagai contoh kepemimpinan yang ideal.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 3: Berorientasi Pelayanan -->
+        <div class="slide" id="slide3">
+            <div class="slide-content">
+                <h2 class="text-3xl font-semibold text-blue-800">Berorientasi Pelayanan</h2>
+                <h3 class="text-2xl font-medium mt-2 text-gray-700">Mengutamakan Kepuasan Masyarakat</h3>
+                <div class="grid md:grid-cols-2 gap-8 mt-6 text-left">
+                    <div>
+                        <p class="font-bold text-lg mb-2">Deskripsi Nilai:</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Memahami dan memenuhi kebutuhan masyarakat.</li>
+                            <li>Ramah, cekatan, solutif, dan dapat diandalkan.</li>
+                            <li>Melakukan perbaikan tiada henti.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="font-bold text-lg mb-2">Contoh Kiprah Dedi Mulyadi:</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>**Blusukan Langsung:** Aktif mengunjungi dan berinteraksi langsung dengan warga.</li>
+                            <li>**Gerakan "Satu Juta Pohon":** Memberikan pelayanan lingkungan secara langsung.</li>
+                            <li>**Respons Cepat:** Menanggapi aduan masyarakat secara langsung melalui media sosial atau kunjungan mendadak.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Akuntabel -->
+        <div class="slide" id="slide4">
+            <div class="slide-content">
+                <h2 class="text-3xl font-semibold text-blue-800">Akuntabel</h2>
+                <h3 class="text-2xl font-medium mt-2 text-gray-700">Bertanggung Jawab atas Kepercayaan</h3>
+                <div class="grid md:grid-cols-2 gap-8 mt-6 text-left">
+                    <div>
+                        <p class="font-bold text-lg mb-2">Deskripsi Nilai:</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Melaksanakan tugas dengan jujur dan bertanggung jawab.</li>
+                            <li>Menggunakan kekayaan dan barang negara secara bertanggung jawab.</li>
+                            <li>Tidak menyalahgunakan kewenangan jabatan.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="font-bold text-lg mb-2">Contoh Kiprah Dedi Mulyadi:</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>**Transparansi Anggaran:** Menjadikan proses pembangunan dan penggunaan anggaran publik transparan.</li>
+                            <li>**Tata Kelola Pemerintahan:** Berhasil membangun infrastruktur yang nyata dengan alokasi anggaran yang jelas.</li>
+                            <li>**Komitmen pada Janji:** Berkomitmen menyelesaikan proyek-proyek strategis sesuai dengan janji kampanye.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Kompeten -->
+        <div class="slide" id="slide5">
+            <div class="slide-content">
+                <h2 class="text-3xl font-semibold text-blue-800">Kompeten</h2>
+                <h3 class="text-2xl font-medium mt-2 text-gray-700">Terus Belajar dan Mengembangkan Kapasitas</h3>
+                <div class="grid md:grid-cols-2 gap-8 mt-6 text-left">
+                    <div>
+                        <p class="font-bold text-lg mb-2">Deskripsi Nilai:</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Meningkatkan kompetensi diri untuk menghadapi tantangan.</li>
+                            <li>Membantu orang lain belajar.</li>
+                            <li>Melaksanakan tugas dengan kualitas terbaik.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="font-bold text-lg mb-2">Contoh Kiprah Dedi Mulyadi:</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>**Inovasi Kebijakan:** Menciptakan kebijakan yang berpihak pada pelestarian budaya.</li>
+                            <li>**Pembangunan SDM:** Fokus pada pendidikan karakter di sekolah-sekolah di Purwakarta.</li>
+                            <li>**Penguasaan Masalah:** Mampu mengidentifikasi masalah di lapangan dan merumuskan solusi.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 6: Harmonis -->
+        <div class="slide" id="slide6">
+            <div class="slide-content">
+                <h2 class="text-3xl font-semibold text-blue-800">Harmonis</h2>
+                <h3 class="text-2xl font-medium mt-2 text-gray-700">Peduli dan Menghargai Perbedaan</h3>
+                <div class="grid md:grid-cols-2 gap-8 mt-6 text-left">
+                    <div>
+                        <p class="font-bold text-lg mb-2">Deskripsi Nilai:</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Menghargai setiap orang, apapun latar belakangnya.</li>
+                            <li>Suka menolong orang lain.</li>
+                            <li>Membangun lingkungan kerja yang kondusif.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="font-bold text-lg mb-2">Contoh Kiprah Dedi Mulyadi:</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>**Toleransi Beragama:** Mengajak masyarakat untuk menjaga kerukunan antarumat beragama.</li>
+                            <li>**Merawat Tradisi:** Menghidupkan kembali tradisi-tradisi lokal sebagai perekat sosial.</li>
+                            <li>**Pendekatan Personal:** Selalu berinteraksi dengan masyarakat dari berbagai lapisan.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Loyal -->
+        <div class="slide" id="slide7">
+            <div class="slide-content">
+                <h2 class="text-3xl font-semibold text-blue-800">Loyal</h2>
+                <h3 class="text-2xl font-medium mt-2 text-gray-700">Berdedikasi dan Mengutamakan Kepentingan Bangsa dan Negara</h3>
+                <div class="grid md:grid-cols-2 gap-8 mt-6 text-left">
+                    <div>
+                        <p class="font-bold text-lg mb-2">Deskripsi Nilai:</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Memegang teguh ideologi Pancasila, UUD 1945, NKRI, dan pemerintahan yang sah.</li>
+                            <li>Menjaga nama baik ASN, pimpinan, instansi, dan negara.</li>
+                            <li>Menjaga rahasia jabatan dan negara.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="font-bold text-lg mb-2">Contoh Kiprah Dedi Mulyadi:</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>**Dedikasi untuk Negara:** Mengabdikan diri dengan sungguh-sungguh untuk kemajuan daerah.</li>
+                            <li>**Menghormati Simbol Negara:** Sering menampilkan unsur-unsur kebangsaan.</li>
+                            <li>**Integritas sebagai Pemimpin:** Menunjukkan kesetiaan pada janji dan konstitusi.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Adaptif -->
+        <div class="slide" id="slide8">
+            <div class="slide-content">
+                <h2 class="text-3xl font-semibold text-blue-800">Adaptif</h2>
+                <h3 class="text-2xl font-medium mt-2 text-gray-700">Terus Berinovasi dan Antusias dalam Menggerakkan Perubahan</h3>
+                <div class="grid md:grid-cols-2 gap-8 mt-6 text-left">
+                    <div>
+                        <p class="font-bold text-lg mb-2">Deskripsi Nilai:</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Cepat menyesuaikan diri menghadapi perubahan.</li>
+                            <li>Terus berinovasi dan mengembangkan kreativitas.</li>
+                            <li>Bertindak proaktif.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="font-bold text-lg mb-2">Contoh Kiprah Dedi Mulyadi:</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>**Pemanfaatan Media Sosial:** Menggunakan platform media sosial sebagai alat komunikasi efektif.</li>
+                            <li>**Transformasi Wajah Kota:** Berhasil mengubah wajah Purwakarta menjadi lebih indah.</li>
+                            <li>**Menghadapi Tantangan:** Cepat mengambil tindakan saat terjadi bencana atau krisis sosial.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Kolaboratif -->
+        <div class="slide" id="slide9">
+            <div class="slide-content">
+                <h2 class="text-3xl font-semibold text-blue-800">Kolaboratif</h2>
+                <h3 class="text-2xl font-medium mt-2 text-gray-700">Membangun Kerja Sama yang Sinergis</h3>
+                <div class="grid md:grid-cols-2 gap-8 mt-6 text-left">
+                    <div>
+                        <p class="font-bold text-lg mb-2">Deskripsi Nilai:</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Memberi kesempatan kepada berbagai pihak untuk berkontribusi.</li>
+                            <li>Terbuka dalam bekerja sama untuk menghasilkan nilai tambah.</li>
+                            <li>Menggerakkan pemanfaatan berbagai sumber daya.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="font-bold text-lg mb-2">Contoh Kiprah Dedi Mulyadi:</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>**Keterlibatan Masyarakat:** Mengajak warga secara langsung dalam program-program pembangunan.</li>
+                            <li>**Kerja Sama Lintas Sektoral:** Berkolaborasi dengan lembaga swasta, seniman, dan budayawan.</li>
+                            <li>**Kemitraan Strategis:** Membangun kerja sama dengan instansi lain.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: Kesimpulan -->
+        <div class="slide" id="slide10">
+            <div class="slide-content">
+                <h2 class="text-3xl font-semibold text-blue-800">Kesimpulan</h2>
+                <ul class="list-disc list-inside mt-6 space-y-4 text-left text-lg text-gray-700">
+                    <li>Kepemimpinan Dedi Mulyadi, dengan gaya yang otentik dan dekat dengan rakyat, menunjukkan implementasi yang kuat dari nilai-nilai **BerAKHLAK**.</li>
+                    <li>Beliau menjadi contoh bahwa nilai-nilai tersebut bukan hanya teori, tetapi dapat diwujudkan melalui tindakan nyata untuk memberikan pelayanan terbaik bagi masyarakat.</li>
+                    <li>Semoga presentasi ini dapat menginspirasi kita semua, terutama para ASN, untuk terus memegang teguh nilai-nilai **BerAKHLAK** dalam setiap tugas dan tanggung jawab.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Slide 11: Tanya Jawab -->
+        <div class="slide" id="slide11">
+            <div class="slide-content">
+                <h2 class="text-3xl font-semibold text-blue-800">Sesi Tanya Jawab</h2>
+                <p class="mt-4 text-lg text-gray-700">Terima kasih atas perhatiannya.</p>
+                <div class="mt-8 flex justify-center space-x-4">
+                    <img src="https://placehold.co/200x150/e5e7eb/4b5563?text=Diskusi" alt="Diskusi" class="rounded-xl shadow-lg">
+                    <img src="https://placehold.co/200x150/e5e7eb/4b5563?text=Microphone" alt="Microphone" class="rounded-xl shadow-lg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tombol Navigasi -->
+    <div class="fixed bottom-8 flex space-x-4">
+        <button id="prev-btn" class="bg-gray-400 text-white font-bold py-2 px-6 rounded-full shadow-lg transition-transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed">
+            &larr; Sebelumnya
+        </button>
+        <button id="next-btn" class="bg-blue-600 text-white font-bold py-2 px-6 rounded-full shadow-lg transition-transform hover:scale-105">
+            Selanjutnya &rarr;
+        </button>
+    </div>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                if (i === index) {
+                    slide.classList.add('active');
+                }
+            });
+            updateButtons();
+        }
+
+        function updateButtons() {
+            prevBtn.disabled = currentSlide === 0;
+            nextBtn.disabled = currentSlide === slides.length - 1;
+        }
+
+        prevBtn.addEventListener('click', () => {
+            if (currentSlide > 0) {
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentSlide < slides.length - 1) {
+                currentSlide++;
+                showSlide(currentSlide);
+            }
+        });
+
+        // Tampilkan slide pertama saat halaman dimuat
+        showSlide(currentSlide);
+    </script>
+
+</body>
+</html>
+
